@@ -13,4 +13,4 @@ I am not new to R or Python, however I am more actively adding to my github acco
 
 So I decided to just upload what ever I do to here and keep it safe :)
 
-![No Backup](https://github.com/msmith01/msmith01.github.io/blob/master/img/dataloss.jpg?raw=true)
+![No Backup](img/dataloss.jpg?raw=true)
