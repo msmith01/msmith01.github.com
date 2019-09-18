@@ -1,16 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: About Me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+I am just about to finish a PhD in Economics at the Complutense University Madrid, second oldest university in Spain and 10th oldest university world wide according to the [wikipedia](https://en.wikipedia.org/wiki/List_of_oldest_universities_in_continuous_operation). I also work for IESE Business School as a researcher in Economics, this blog is a side project to keep a account of some interesting side projects I am working on.
