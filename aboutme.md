@@ -9,14 +9,12 @@ I am just about to finish a PhD in Economics at the Complutense University Madri
 I am not new to R or Python, however I am more actively adding to my github account with code for a number of reasons, 1) because I think others might like to benefit from what I am doing and 2) in August 2019 my hard drive decided it was time and peacefully went to sleep.
 
 <p align="center">
-  <img width="460" height="300" src="img/nobackup.jpg">
+  <img width="400" height="300" src="img/nobackup.jpg">
 </p>
 
 ![nobackup](img/nobackup.jpg)
 
-<p align="center">
-  ![nobackup](img/nobackup.jpg)
-</p>
+
 
 So I decided to just upload what ever I do to here and keep it safe :)
 
