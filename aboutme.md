@@ -14,6 +14,10 @@ I am not new to R or Python, however I am more actively adding to my github acco
 
 ![nobackup](img/nobackup.jpg)
 
+<p align="center">
+  ![nobackup](img/nobackup.jpg)
+</p>
+
 So I decided to just upload what ever I do to here and keep it safe :)
 
 <p align="center">
