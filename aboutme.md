@@ -11,6 +11,10 @@ I am not new to R or Python, however I am more actively adding to my github acco
 
 ![No Backup](img/nobackup.jpg?raw=true)
 
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
+
 So I decided to just upload what ever I do to here and keep it safe :)
 
 ![No Backup](img/dataloss.jpg?raw=true)
