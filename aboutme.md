@@ -18,3 +18,4 @@ So I decided to just upload what ever I do to here and keep it safe :)
   <img width="460" height="400" src="https://github.com/msmith01/msmith01.github.io/blob/master/img/dataloss.jpg">
 </p>
 
+I know :( sadpikachu.gif
