@@ -1,4 +1,3 @@
-HELLLOOO
 ---
 layout: page
 title: Research
