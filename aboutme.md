@@ -15,8 +15,6 @@ I am not new to R or Python, however I am more actively adding to my github acco
 
 So I decided to just upload what ever I do to here and keep it safe :)
 
-<p align="center">
-  <img width="460" height="400" src="https://github.com/msmith01/msmith01.github.io/blob/master/img/dataloss.jpg">
-</p>
+![tellmemorenobackup](https://github.com/msmith01/msmith01.github.io/blob/master/img/dataloss.jpg?raw=true?style=centerme)
 
 I know :( sadpikachu.gif
