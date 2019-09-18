@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: A little about what I do and why I set up this github page
 ---
-
+hi
 ![whoisthatconor](https://github.com/msmith01/msmith01.github.io/blob/master/img/conorgif.jpg?raw=true?style=centerme)
 
 
