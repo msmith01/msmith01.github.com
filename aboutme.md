@@ -12,9 +12,14 @@ I am not new to R or Python, however I am more actively adding to my github acco
 ![No Backup](img/nobackup.jpg?raw=true)
 
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  <img width="460" height="300" src="https://github.com/msmith01/msmith01.github.io/blob/master/img/nobackup.jpg">
 </p>
 
 So I decided to just upload what ever I do to here and keep it safe :)
 
 ![No Backup](img/dataloss.jpg?raw=true)
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/msmith01/msmith01.github.io/blob/master/img/dataloss.jpg">
+</p>
+
