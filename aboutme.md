@@ -12,6 +12,8 @@ I am not new to R or Python, however I am more actively adding to my github acco
   <img width="460" height="300" src="img/nobackup.jpg">
 </p>
 
+![nobackup](img/nobackup.jpg)
+
 So I decided to just upload what ever I do to here and keep it safe :)
 
 <p align="center">
