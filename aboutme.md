@@ -12,7 +12,7 @@ I am not new to R or Python, however I am more actively adding to my github acco
   <img width="400" height="300" src="img/nobackup.jpg">
 </p>
 
-![nobackup](img/nobackup.jpg?style=centerme)
+![nobackup](https://github.com/msmith01/msmith01.github.io/blob/master/img/nobackup.jpg?raw=true?style=centerme)
 
 
 
