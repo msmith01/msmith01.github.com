@@ -23,7 +23,7 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   Resources:
-    - Beautiful Jekyll: "research"
+    - rsrch: "research"
     - Learn markdown: "http://www.markdowntutorial.com/"
   Author's home: "http://deanattali.com"
 
