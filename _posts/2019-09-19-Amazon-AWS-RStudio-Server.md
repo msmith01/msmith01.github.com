@@ -25,7 +25,7 @@ sudo apt-get install -y r-base r-base-dev
 
 **Step 2:**  Download and isntall RStudio
 
-Download the latest RStudio version from [here](https://www.rstudio.com/products/rstudio/download/#download) and replace the link below.
+Find the latest RStudio version link from [here](https://www.rstudio.com/products/rstudio/download/#download) and replace the link below after the `wget`.
 ~~~
 sudo apt install gdebi-core
 wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-1.2.1335-amd64.deb
