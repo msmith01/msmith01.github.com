@@ -8,7 +8,6 @@ tags: [AWS, RStudio]
 comments: true
 ---
 
-
 There are times when I am connected remotely to an RStudio server and I want to run a time-consuming script which might take a few hours or days. As part of my PhD I had to calculate a number of large distance matrices which took considerable time since the data was quite large. Another script I developed was to download and parse 150,000 documents. It took a week to download and parse them and during this time I lost connection to the server a few times causing the code to break.
 
 The free version of RStudio only allows one session open at any time and leaving the script running for a week meant that I couldn’t keep coding in R! Many of the problems I faced actually didn’t require RStudio since the models were either downloading and storing data or calculating matrices so just an R connection would be sufficient. So, I wanted to find a way to run an R file without logging off or without any interruption. I come across the **nohup** command in Unix operating systems.
