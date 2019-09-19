@@ -3,7 +3,7 @@ layout: post
 title: Sending nohup commands to R scripts
 subtitle: A breif discussion on nohup commands for R scripts
 gh-repo: msmith01
-gh-badge: [star, fork, follow]
+gh-badge: [star, follow, watch]
 tags: [AWS, RStudio]
 comments: true
 ---
