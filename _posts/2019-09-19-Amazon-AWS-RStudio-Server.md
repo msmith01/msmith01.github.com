@@ -56,7 +56,7 @@ You can install RStudio directly as an Amazon AWS instance by using Louis Aslett
 
 I recommend Louis Aslett's AMI especially if you are not familiar with Bash or Shell commands however I was running into some compatibility problems with package versions and R versions which is why I sought a way to manually install R and have full control.
 
-Below are a fe additional commands, mostly for myself since I kept all these commands in a notepad and there was a reason they were kept!
+Below are a few additional commands, mostly for myself since I kept all these commands in a notepad and there was a reason they were kept!
 
 **Step 6:** Upgrade R
 
