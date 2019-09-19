@@ -77,6 +77,7 @@ stocks <- symbols %>%
          to = to)
 
 stocks %>%
+  head() %>%
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
