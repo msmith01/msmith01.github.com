@@ -4,7 +4,7 @@ title: RStudio Server on Amazon Web Services
 subtitle: Short guide on how to setup an AWS with RStudio installed
 gh-repo: https://github.com/msmith01
 gh-badge: [star, fork, follow]
-tags: [AWS][RStudio]
+tags: [AWS]
 comments: true
 ---
 Note: Skip to **Step 5** if you want the "quick fix".
