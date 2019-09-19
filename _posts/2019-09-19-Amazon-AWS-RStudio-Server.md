@@ -15,7 +15,7 @@ I will briefly document how I setup RStudio server on an Amazon AWS cloud instan
 Once the instance is setup, 
 
 
-![nobackup](https://github.com/msmith01/msmith01.github.io/tree/master/_posts/posts_img/y_u_no_hurry_up.jpg?raw=true?style=centerme)
+![yunohurry](https://raw.githubusercontent.com/msmith01/msmith01.github.io/master/_posts/posts_img/y_u_no_hurry_up.jpg?style=centerme)
 
 
 
