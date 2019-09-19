@@ -3,7 +3,7 @@ title: "Scraping Yahoo Finance IPO Data"
 author: "Matthew Smith"
 date: "19/9/2019"
 output: html_document
-#keep_md: true
+keep_md: true
 ---
 
 ```{r setup, include = FALSE, message = FALSE, warning = FALSE}
@@ -93,10 +93,13 @@ read.csv("https://raw.githubusercontent.com/msmith01/IPO_Web_Scraping_Yahoo/mast
   
 ```
 
-I try to recreate some of the plots on J.R.Ritters website for each of the sections 
+I try to recreate some of the plots on J.R.Ritters website for each of the countries.
 
-```{r, out.width="0.3\\linewidth", include=TRUE, fig.align="center", fig.cap=c("your caption"), echo=FALSE}
-knitr::include_graphics("/_posts/posts_img/Monthly_bloomberg_graphs.pdf")
+
+```{r, include = TRUE, message = FALSE, warning = FALSE}
+knitr::include_graphics("../_posts/posts_img/Monthly_bloomberg_graphs.png")
+knitr::include_graphics("../_posts/posts_img/Monthly_bloomberg_graphs2.png")
+knitr::include_graphics("../_posts/posts_img/Monthly_bloomberg_graphs3.png")
 ```
 
 See J.R.Ritter for other [IPO data.](https://site.warrington.ufl.edu/ritter/ipo-data/)
