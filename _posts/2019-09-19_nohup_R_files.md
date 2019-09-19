@@ -16,7 +16,9 @@ The free version of RStudio only allows one session open at any time and leaving
 The **nohup** or **no hang-up** command can execute a script and tell the system to continue running it even if the session is disconnected.
 I use it in the following way, once I have developed a model *myRFile.R* using RStudio, verified it works on a sample of the data etc. and saved it into a folder called *myFolder*. I can go to the terminal (which I usually connect to using PuTTY) and run the following:
 
+~~~
 nohup Rscript ./myFolder/myRFile.R </dev/null>myRFile_Output.out 2>myRFile_ErrorMessages.err &
+~~~
 
 This will run the .R file and store any output usually printed to the console to a text file *myRFile_Ouput.out* and any error messages to another text file *myRFile_ErrorMessages.err* where we can check on the progress whilst the script is running. I usually add progress messages in side the function such as:
 
