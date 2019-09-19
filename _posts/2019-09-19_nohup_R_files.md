@@ -35,6 +35,6 @@ foo <- function(x){
 years <- seq(from = "2005", to = "2018")
 sapply(years, foo)  
 ```
-Which prints out the progress of the function, i.e. if I needed to apply a function across years.
+Which prints out the progress of the function to *myRFile_Output.out*, i.e. if I needed to apply a function across years.
 
 By running *nohup* commands from the terminal allows me to free up my RStudio for other tasks also. 
