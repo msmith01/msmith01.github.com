@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Matthew Smith Blog
+title: Matthew Smith R Blog
 
 # Short description of your site
 description: A blog detailing some projects I am working on in regards to finance, time series and machine learning.
@@ -61,7 +61,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Matthew Smith
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -69,10 +69,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
+# email: "mattonline1@gmail.com"
+# facebook: deanattali
+  github: msmith01
+  twitter: MatthewSmith786
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
