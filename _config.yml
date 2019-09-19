@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Matthew Smith R Blog
+title: A blog documenting the mischief I get upto in R
 
 # Short description of your site
 description: A blog detailing some projects I am working on in regards to finance, time series and machine learning.
@@ -23,8 +23,9 @@ navbar-links:
   About Me: "aboutme"
   Research: "research"
   Resources:
-    - rsrch: "research"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+    - linkedin: "https://www.linkedin.com/in/msmithsm14"
+    - Learn markdown: "https://twitter.com/MatthewSmith786"
+    - Github: "https://github.com/msmith01"
   LF0.com: "http://LF0.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
