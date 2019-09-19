@@ -103,6 +103,9 @@ knitr::include_graphics("../_posts/posts_img/Monthly_bloomberg_graphs2.png")
 knitr::include_graphics("../_posts/posts_img/Monthly_bloomberg_graphs3.png")
 ```
 
+The returns seem reasonable given some exchanges are growth exchanges and others are mature exchanges. I would take caution here however since Yahoo is somewhat unreliable (at least in my experience of getting stock prices and fundamental data).
+
+**References**
 See J.R.Ritter for other [IPO data.](https://site.warrington.ufl.edu/ritter/ipo-data/)
 See Tim Loughran and Jay Ritter [IPO returns:](https://site.warrington.ufl.edu/ritter/files/2016/06/why-has-IPO-Underpricing-Increased-Over-Time.pdf)
 
