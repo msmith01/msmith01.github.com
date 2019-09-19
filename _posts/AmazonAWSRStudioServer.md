@@ -27,7 +27,9 @@ sudo apt install gdebi-core
 wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-1.2.1335-amd64.deb
 sudo gdebi rstudio-server-1.2.1335-amd64.deb
 ~~~
+
 **Step 3:** We can add a user to the system to log into RStudio server
+
 ~~~
 sudo chmod 777 -R /usr/local/lib/R/site-library
 sudo adduser YOURUSERNAME
@@ -36,6 +38,7 @@ sudo adduser YOURUSERNAME
 That should be it. I was using this code a little while back. I will update the post when I install an AWS instance again in the coming months.
 
 **Step 4:** Updating R to later versions
+
 ~~~
 echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" | sudo tee -a /etc/apt/sources.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
@@ -53,6 +56,7 @@ I recommend Louis Aslett's AMI especially if you are not familiar with Bash or S
 Below are a fe additional commands, mostly for myself since I kept all these commands in a notepad and there was a reason they were kept!
 
 **Step 6:** Upgrade R
+
 ~~~
 echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" | sudo tee -a /etc/apt/sources.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
@@ -70,6 +74,7 @@ su root
 
 
 **Step 8:** Additional
+
 ~~~
 apt-get -y build-dep libcurl4-gnutls-dev
 ~~~
