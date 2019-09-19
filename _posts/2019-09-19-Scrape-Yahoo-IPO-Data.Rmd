@@ -3,6 +3,7 @@ title: "Scraping Yahoo Finance IPO Data"
 author: "Matthew Smith"
 date: "19/9/2019"
 output: html_document
+keep_md: true
 ---
 
 ```{r setup, include = FALSE, message = FALSE, warning = FALSE}
