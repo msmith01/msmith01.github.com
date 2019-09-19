@@ -85,7 +85,7 @@ stocks %>%
 
 Next I join the daily stock price data with the IPO data, clean it up a little and compute the returns. I also split the data into different markets such as NYSE, LSE, Frankfurt etc. and compute the average daily returns. You can find everything along with the [excel](https://github.com/msmith01/IPO_Web_Scraping_Yahoo/blob/master/yahoo_finance_IPOs_2000_2018.csv) file collecting IPOs since 2000 [here](https://github.com/msmith01/IPO_Web_Scraping_Yahoo).
 
-Heres how the final data looks:
+Heres how the final data looks with the calculated one day price returns:
 
 ```{r, include = TRUE, message = FALSE, warning = FALSE}
 read.csv("https://raw.githubusercontent.com/msmith01/IPO_Web_Scraping_Yahoo/master/yahoo_finance_IPOs_2000_2018.csv", nrows = 10) %>%
