@@ -7,72 +7,70 @@ gh-badge: [star, fork, follow]
 tags: [AWS][RStudio]
 comments: true
 ---
+Note: Skip to **Step x** if you want the "quick fix".
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+I will briefly document how I setup RStudio server on an Amazon AWS cloud instance. Once you have an AWS account you should be able to follow these instructions to set everything up. You should follow some tutorial such as [here](https://www.guru99.com/creating-amazon-ec2-instance.html) in order to setup the Amazon ec2 instance. I am using the "Ubuntu Server 18.04 LTS (HVM), SSD Volume Type" on a "free eligible tier t2.micro" - The free version has 1GB of memory which is fine for getting to know the environment but I strongly recomend investing in a paid instance.
 
-**Here is some bold text**
+Once you have your instance setup, follow the instructions [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html) to set up PuTTY (for Windows users) and obtain a .pem key. Once we are logged into PuTTY we can run the following commands:
 
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .center-block :}
-
-Here's a code chunk:
-
+**Step 1:** Install R
 ~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+sudo apt update
+sudo apt-get install -y r-base r-base-dev
 ~~~
 
-And here is the same code with syntax highlighting:
+**Step 2:**  Download and isntall RStudio
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+Download the latest version from [here](https://www.rstudio.com/products/rstudio/download/#download) and replace the link below.
+~~~
+sudo apt install gdebi-core
+wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-1.2.1335-amd64.deb
+sudo gdebi rstudio-server-1.2.1335-amd64.deb
+~~~
+**Step 3:** We can add a user to the system to log into RStudio server
+~~~
+sudo chmod 777 -R /usr/local/lib/R/site-library
+sudo adduser YOURUSERNAME
+~~~
 
-And here is the same code yet again but with line numbers:
+That should be it. I was using this code a little while back. I will update the post when I install an AWS instance again in the coming months.
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+**Step 4:** Updating R to later versions
+~~~
+echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" | sudo tee -a /etc/apt/sources.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo apt-get update
+sudo apt-get upgrade -y
 
-## Boxes
-You can add notification, warning and error boxes like this:
+~~~
 
-### Notification
+**Step 5:** Quick version
 
-{: .box-note}
-**Note:** This is a notification box.
+You can install RStudio directly as an Amazon AWS instance by using Louis Aslett's RStudio Amazon Machine Image (AMI) [here](http://www.louisaslett.com/RStudio_AMI/). There is also a short video [here](http://www.louisaslett.com/RStudio_AMI/video_guide.html) on how you can set it up painlessly!
 
-### Warning
+I recommend Louis Aslett's AMI especially if you are not familiar with Bash or Shell commands however I was running into some compatibility problems with package versions and R versions which is why I sought a way to manually install R and have full control.
 
-{: .box-warning}
-**Warning:** This is a warning box.
+Below are a fe additional commands, mostly for myself since I kept all these commands in a notepad and there was a reason they were kept!
 
-### Error
+**Step 6:** Upgrade R
+~~~
+echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" | sudo tee -a /etc/apt/sources.list
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y r-base r-recommended r-base-dev
+~~~
 
-{: .box-error}
-**Error:** This is an error box.
+**Step 7:** Change password for the root user
+
+~~~
+sudo passwd root
+su root
+~~~
+
+
+**Step 8:** Additional
+~~~
+apt-get -y build-dep libcurl4-gnutls-dev
+~~~
+
