@@ -44,7 +44,6 @@ echo "deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/" | sudo te
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo apt-get update
 sudo apt-get upgrade -y
-
 ~~~
 
 **Step 5:** Quick version
