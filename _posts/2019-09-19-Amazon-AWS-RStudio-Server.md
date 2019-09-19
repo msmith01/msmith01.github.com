@@ -15,9 +15,7 @@ I will briefly document how I setup RStudio server on an Amazon AWS cloud instan
 Once the instance is setup, 
 
 
-![yunohurry](https://raw.githubusercontent.com/msmith01/msmith01.github.io/master/_posts/posts_img/y_u_no_hurry_up.jpg?style=centerme)
-
-
+![yunohurry](https://github.com/msmith01/msmith01.github.io/master/_posts/posts_img/y_u_no_hurry_up.jpg?style=centerme)
 
 follow these instructions [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html) to set up PuTTY (for Windows users) and obtain a .pem key. Once we are logged into PuTTY we can run the following commands:
 
