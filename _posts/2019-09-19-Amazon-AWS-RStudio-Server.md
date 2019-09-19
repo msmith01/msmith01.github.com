@@ -10,7 +10,7 @@ comments: true
 
 Note: Skip to **Step 5** if you want the "quick fix".
 
-I will briefly document how I setup RStudio server on an Amazon AWS cloud instance. Once you have an AWS account you should be able to follow these instructions to set everything up. I suggest you follow some tutorial such as [here](https://www.guru99.com/creating-amazon-ec2-instance.html) in order to setup the Amazon ec2 instance, it's not difficult but it is a separate topic. I am using the "Ubuntu Server 18.04 LTS (HVM), SSD Volume Type" on a "free eligible tier t2.micro" - The free version has 1GB of memory which is fine for getting to know the environment/Amazon AWS but I strongly recomend investing in a paid instance once your are familiar.
+I will briefly document how I setup RStudio server on an Amazon AWS cloud instance. Once you have an AWS account you should be able to follow these instructions to set everything up. I suggest you follow some tutorial such as [here](https://www.guru99.com/creating-amazon-ec2-instance.html) in order to setup the Amazon ec2 instance, it's not difficult but it is a separate topic. I am using the *"Ubuntu Server 18.04 LTS (HVM), SSD Volume Type"* on a *"free eligible tier t2.micro"* - The free version has 1GB of memory which is fine for getting to know the environment/Amazon AWS but I strongly recomend investing in a paid instance once your are familiar.
 
 Once the instance is setup, you might want to follow these instructions [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html) to set up PuTTY (for Windows users) and obtain a .pem key. Once we are logged into PuTTY we can run the following commands:
 
