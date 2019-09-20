@@ -26,13 +26,14 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 800;
 }
 
+a {
+  color: {{ site.link-col }};
+}
+
 .header_class {
   color: red;
 }
 
-a {
-  color: {{ site.link-col }};
-}
 a:hover,
 a:focus {
   color: {{ site.hover-col }};
